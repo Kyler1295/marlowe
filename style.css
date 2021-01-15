@@ -65,6 +65,7 @@ h6 {
   font-family: 'Tangerine', cursive; 
   font-weight: 700;
   margin: 15vh 0 0 0;
+  text-align: center;
 }
 
 .menu {
@@ -166,4 +167,49 @@ th {
 .special-events p {
   width: 40%;
   margin: 0 auto;
+}
+
+footer {
+  height: 5vh;
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1% 5%;
+}
+
+footer p {
+  font-size: .5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .menu img {
+    width: 100%;
+  }
+
+  .main_hero h1 {
+    margin: 25vh 0 0 0;
+  }
+
+  .menu p, .staff_list .intro-text, .staff-info, .staff_list, .tours p, .special-events p {
+    width: 100%;
+  }
+
+  .staff-member {
+    flex-direction: column;
+    margin: 10% auto
+  }
+
+  .staff-photo {
+    width: 250px;
+    align-items: center;
+  }
+  table {
+    width: 100%;
+  }
+
+  th {
+    font-size: 2rem;
+  }
 }
