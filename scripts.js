@@ -21,8 +21,9 @@ const executeMenu = () => {
       <h3>Guns:</h3>
       <li>AK-47</li>
       <li>Bullpup</li>
-      <li>PD Rifle Mk2</li>
-      <li>OG Rifle</li>
+      <li>AK-47 MK2</li>
+      <li>Bullpup MK2</li>
+      <li>Scorpion</li>
       <li>Heavy Pistol</li>
     </ul>
     <ul>
@@ -30,14 +31,11 @@ const executeMenu = () => {
       <li>Kidnapping</li>
       <li>Blackmailing</li>
       <li>Planting Evidence</li>
-      <li>Rent A Heist</li>
     </ul>
     <ul>
-      <h3>Items</h3>
-      <li>Steel</li>
-      <li>Vodka</li>
+      <h3>Items:</h3>
+      <li>Fake IDs</li>
       <li>Spirit Coffee</li>
-      <li>PD Armor</li>
       <li>Drills</li>
     </ul>
     <div class="currentCount"></div>
