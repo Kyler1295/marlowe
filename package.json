@@ -1,0 +1,19 @@
+{
+  "name": "marlowe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kyler1295/marlowe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kyler1295/marlowe/issues"
+  },
+  "homepage": "https://github.com/Kyler1295/marlowe#readme"
+}
