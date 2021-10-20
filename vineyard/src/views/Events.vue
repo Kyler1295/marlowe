@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div class="events">
     <Hero
         hero-title="Coming Soon"
         :hero-background="require(`@/assets/johny-goerend-pnigODapPek-unsplash.jpg`)"
@@ -12,7 +12,7 @@
 import Hero from '@/components/Hero';
 
 export default {
-  name: "About",
+  name: "Events",
   components: {
     Hero
   }

@@ -1,30 +1,49 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </div>
-  <router-view/>
+  <main :style="{backgroundImage: `url(${require('@/assets/so-white.png')})`}">
+    <Nav />
+    <router-view />
+    <Footer />
+  </main>
 </template>
 
+<script>
+import Nav from '@/components/Nav';
+import Footer from '@/components/Footer';
+
+export default {
+  components: {
+    Nav,
+    Footer
+  }
+}
+</script>
+
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Festive&family=Italianno&family=Roboto:wght@400;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 
-#nav {
-  padding: 30px;
+.cursive {
+  font-family: 'Italianno', cursive;
 }
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
+.festive {
+  font-family: 'Festive', cursive;
 }
 
-#nav a.router-link-exact-active {
-  color: #42b983;
+main {
 }
+
+hr {
+  border-top: 1px dashed #8c8b8b;
+  width: 80%;
+  margin: 30px auto;
+}
+
 </style>
