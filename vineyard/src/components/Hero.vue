@@ -21,18 +21,22 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-size: cover;
+  background-position: center;
 }
 
 .hero h2 {
   color: #ffffff;
   font-size: 3.5rem;
   font-weight: bold;
+  text-shadow: 1px 1px 1px #000000;
 }
 
 .hero p {
   color: #ffffff;
   font-size: 1.25rem;
   font-weight: bold;
+  text-shadow: 1px 1px 1px #000000;
 }
 
 </style>
