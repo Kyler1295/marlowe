@@ -1,6 +1,6 @@
 <template>
  <footer>
-   &copy; {{ footerDate }} Marlowe Vineyards & Jackson Enterprises
+   &copy; {{ footerDate }} Endeavour Associates
  </footer>
 </template>
 
