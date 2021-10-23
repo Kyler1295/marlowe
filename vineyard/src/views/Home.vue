@@ -40,7 +40,7 @@
           </p>
         </div>
         <div class="column is-4">
-          <img :src="require('@/assets/Hallowine.jpg')" alt="Hallowine Poster">
+          <img :src="require('@/assets/Hallowine_28.png')" alt="Hallowine Poster">
         </div>
       </div>
     </section>
